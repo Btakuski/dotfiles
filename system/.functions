@@ -1,0 +1,9 @@
+# Function shorthand for aws-vault exec withcurrent profile
+function ve() {
+  aws-vault exec "${AWS_DEFAULT_PROFILE:-read-only}" -- "$@"
+}
+
+function sp {
+  git branch > /dev/null 2>&1 || return 1
+  git config user.initials
+}
