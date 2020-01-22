@@ -1,0 +1,7 @@
+### Shortcuts
+
+alias ll="ls -lhA"
+alias rr="rm -rf"
+alias g="git"
+alias _="sudo"
+alias reload="source ~/.bash_profile"
