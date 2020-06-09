@@ -1,7 +1,8 @@
 ### Shortcuts
 
-alias ll="ls -lhA"
+alias ll="ls -lhA --color=auto"
 alias rr="rm -rf"
 alias g="git"
 alias _="sudo"
 alias reload="source ~/.bash_profile"
+alias dockerdc="docker rm $(docker ps -a -q)"
