@@ -16,5 +16,5 @@ defaults write com.apple.finder _FXShowPosixPathInTitle -bool true
 # Disable the sound effects on boot
 sudo nvram SystemAudioVolume=” “
 
-
-
+# Disable mouse acceleration
+defaults write .GlobalPreferences com.apple.mouse.scaling -1
